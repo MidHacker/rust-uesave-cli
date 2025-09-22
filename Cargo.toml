@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# Enable serde support so we can serialize to JSON
-uesave = { version = "0.6", features = ["serde"] }
+uesave = "0.6"      # or just "0.6"
 serde_json = "1"
 anyhow = "1"
