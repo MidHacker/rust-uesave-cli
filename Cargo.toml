@@ -1,0 +1,9 @@
+[package]
+name = "rust-uesave"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uesave = "0.6"
+serde_json = "1"
+anyhow = "1"
